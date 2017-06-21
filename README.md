@@ -59,4 +59,6 @@ MIT
 
 ## Copyright
 
+```
 Copyright (c) 2015-2017 Thomas Boerger <http://www.webhippie.de>
+```
