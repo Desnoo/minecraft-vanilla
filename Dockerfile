@@ -10,7 +10,7 @@ ENTRYPOINT ["/usr/bin/entrypoint"]
 CMD ["/bin/s6-svscan", "/etc/s6"]
 
 ENV MINECRAFT_JAR server.jar
-ENV MINECRAFT_URL https://launcher.mojang.com/v1/objects/f1a0073671057f01aa843443fef34330281333ce/${MINECRAFT_JAR}
+ENV MINECRAFT_URL https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/${MINECRAFT_JAR}
 
 RUN curl --create-dirs -sLo /minecraft/${MINECRAFT_JAR} ${MINECRAFT_URL}
 
